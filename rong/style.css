@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* sheard  */
+body{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.colors{
+    color:#FD6E0A;
+}
+
+/* main code  */
+
+header{
+   background-color: #FFF8F3;
+   padding:50px;
+}
+.btn{
+    width:150px;
+    height: 65px;
+    border-radius: 5px;
+    border:none;
+   background-color: #FD6E0A;
+   color:white;
+   font-size: 20px;
+   font-weight: bold;
+   padding:18px 35px;
+}
+nav{
+    width:71%;
+    max-width:1140;
+    /* border:1px solid red; */
+    margin:0 auto;
+    justify-content: space-between ;
+    display: flex;
+    align-items: center;
+}
+ #logo {
+    font-size: 45px;
+    font-weight: 800px;
+    align-items: center;
+}
+.menu{
+    display:flex;
+    list-style: none;
+    gap:51px;
+    align-items: center;
+
+}
+.menu a{
+    text-decoration: none;
+    color:#474747;
+    font-weight:300;
+    font-size: 20px;
+}
