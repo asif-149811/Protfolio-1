@@ -17,6 +17,9 @@ body{
 header{
    background-color: #FFF8F3;
    padding:50px;
+   background: url(../images/developer.png), url(../images/header_bg.png) #FFF8F3;
+   background-repeat: no-repeat;
+   background-position:top left, bottom right ;
 }
 .btn{
     width:150px;
@@ -27,7 +30,32 @@ header{
    color:white;
    font-size: 20px;
    font-weight: bold;
-   padding:18px 35px;
+   padding:19px 35px;
+   cursor: pointer;
+}
+.btn3{
+    width:160px;
+    height: 65px;
+    border-radius: 5px;
+    border:1px solid #FD6E0A ;
+   background-color:white;
+   color: #FD6E0A;
+   font-size: 20px;
+   font-weight: bold;
+   padding:19px 17px;
+   cursor: pointer;
+}
+.btn2{
+    width:200px;
+    height: 65px;
+    border-radius: 5px;
+    border:none;
+   background-color: #FD6E0A;
+   color:white;
+   font-size: 20px;
+   font-weight: bold;
+   padding:19px 17px;
+   cursor: pointer;
 }
 nav{
     width:71%;
@@ -56,3 +84,37 @@ nav{
     font-weight:300;
     font-size: 20px;
 }
+#banner .content{
+    max-width: 585px;
+}
+#banner{
+    /* border:1px solid red; */
+    margin:46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding:0; */
+}
+#banner .content h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color:#474747;
+    margin-bottom: 5px;
+}
+#banner .content h1{
+    color:#181818;
+    font-size: 85px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#banner .content p{
+    padding-bottom: 30px;
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400px;
+}
+#banner .images img{
+    max-width:585;
+    vertical-align: middle;
+}
+
