@@ -21,6 +21,24 @@ header{
    background-repeat: no-repeat;
    background-position:top left, bottom right ;
 }
+.section-heading{
+    max-width: 875;
+    
+}
+.section-heading h2{
+   margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-heading p{
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+
+}
 .btn{
     width:150px;
     height: 65px;
@@ -114,7 +132,34 @@ nav{
     font-weight: 400px;
 }
 #banner .images img{
-    max-width:585;
+    max-width:585px;
     vertical-align: middle;
 }
+#about{
+    padding-top:130px;
 
+   
+}
+#about #container{
+    width:71%;
+    max-width: 1140px;
+    margin:0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+}
+#about #container .about-info{
+
+    display:flex;
+    gap:50px;
+    justify-content: center;
+}
+#about #container .about-info p{
+    font-size: 20px;
+    color:#757575;
+}
+#about #container .about-info h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: mixed;
+}
