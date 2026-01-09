@@ -19,7 +19,7 @@ header{
    padding:50px;
    background: url(../images/developer.png), url(../images/header_bg.png) #FFF8F3;
    background-repeat: no-repeat;
-   background-position:top left, bottom right ;
+   background-position:23px 48px, bottom right ;
 }
 .section-heading{
     max-width: 827px;
@@ -75,6 +75,9 @@ header{
    font-weight: bold;
    padding:19px 17px;
    cursor: pointer;
+}
+.text-center{
+    text-align: center;
 }
 nav{
     width:71%;
@@ -216,11 +219,7 @@ nav{
 .resume-container hr{
     margin:30px 0px;
 }
-/* .resume-container .Download{
-    flex-wrap: wrap;
-    margin-top:40px;
-    
-} */
+
 .resume-card{
     max-width: 511px;
     margin-right: 47px;
@@ -248,6 +247,47 @@ nav{
      font-size: 16px;
      color:#757575;
      line-height: 28px;
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+
+}
+footer .footer-container{
+    width:71%;
+    max-width: 1140px;
+    margin:0 auto;
+    display:flex;
+    gap:116px;
+}
+.footer-container .social{
+    max-width: 562px;
+
+}
+.footer-container .social p{
+    color:#474747;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#181818;
+}
+.footer-container .icons a{
+  margin-right: 24px;
+}
+.footer-container form input[type="text"], .footer-container form textarea{
+    width: 461px;
+    padding:18px 31px;
+    margin-bottom: 24px;
+    border:none;
+    background-color: white;
+    border-radius: 5px;
 }
 
 
